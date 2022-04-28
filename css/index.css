@@ -1,0 +1,166 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+}
+#divBox{
+    border: solid #0a3871; 
+    border-radius: 15px;
+    background-color: #F3F5FC;
+    position: relative;
+    width: 86%;
+    height: 720px;
+    margin: 15px auto auto auto; 
+}
+#divLogo{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 38px;
+}#divLogo:hover{
+    width: 40px;
+}
+#aluraLogo{
+    width: 100%;
+}
+#outputRect{
+    position: absolute;
+    border-radius: 25px;
+    width: 346px;
+    height: 640px;
+    background-color: white;
+    right: 40px;
+    margin-top: 40px;
+    word-wrap: break-word;
+}
+#divMuñeco{
+    position: absolute;
+    width: 290px;
+    margin-top: 120px;
+    margin-left: 28px;
+}
+#imgMuñeco{
+    width: 100%;
+}
+#noMessage{
+    position: absolute;
+    width: 266px;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 405px;
+    font-size: 24px;
+    font-weight: 700;
+    font: bolder;
+}
+#noMessage2{
+    position: absolute;
+    width: 266px;
+    margin-left: 40px;
+    margin-top: 475px;
+    text-align: center;
+    font-size: 14px;
+}
+#idTextArea{
+    position: absolute;
+    color: #0a3871;
+    background-color: transparent;
+    width: 600px;
+    height: 380px;
+    margin-left: 215px;
+    margin-top: 150px;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: 200;
+    border: none; 
+    resize: none; 
+    outline: none;
+}
+::-webkit-input-placeholder {
+    color: #0a3871;
+}
+#divButtons{
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    margin-left: 200px;
+    margin-top: 620px;
+    text-align: center;
+}
+#encriptarBtn{
+    background-color: #0a3871;
+    border: solid 1px #F3F5FC;
+    color: #E5E5E5;
+    border-radius: 15px;
+    width: 46%;
+    height: 50px;
+    margin-right: 3%;
+    display: inline-block;
+    font-size: 15px;
+}#encriptarBtn:hover{
+    background-color: darkcyan;
+    font-size: 16px;
+    cursor: pointer;
+}
+#desencriptarBtn{
+    background-color: #E5E5E5;
+    border: solid 1px #0a3871;
+    color: #0a3871;
+    border-radius: 15px;
+    width: 46%;
+    height: 50px;
+    display: inline-block;
+    font-size: 15px;
+}#desencriptarBtn:hover{
+    background-color: hotpink;
+    font-size: 16px;
+    cursor: pointer;
+}
+#rulesMsg{
+    color: #495057;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 580px;
+}
+#idExclamation{
+    width: 19px;
+    font-size: 20px;
+    font-weight: 200;
+    vertical-align: text-top;
+}
+.invisible{
+    display: none;
+}
+#resultText{
+    position: absolute;
+    width: 276px;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 35px;;
+}
+#copyBtn{
+    position: absolute;
+    background-color: #E5E5E5;
+    border: solid 1px #0a3871;
+    color: #0a3871;
+    border-radius: 15px;
+    width: 276px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 580px;
+    margin-left: 35px;;    
+}#copyBtn:hover{
+    background-color: rgb(233, 233, 136);
+    font-size: 16px;
+    cursor: pointer;
+}
+#autor{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 636px;
+    color: #0a387150;
+    font-size: 15px;
+    font-weight: 700;
+}#autor:hover{
+    color: #0a3871;
+    font-size: 16px;
+    cursor: pointer;
+}

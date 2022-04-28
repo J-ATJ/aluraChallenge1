@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--@J-ATJ-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;700&display=swap" rel="stylesheet">
+    <title>Challenge 1 J-ATJ</title>
+</head>
+<body>
+    <div id="divBox">
+        <div id="divLogo">
+            <a href="https://www.aluracursos.com/" target="_blank"><img src="images/logoAlura.png" alt="Alura logo" id="aluraLogo"></a> 
+        </div>
+        <a href="https://github.com/J-ATJ" target="_blank"><span id="autor">J-ATJ</span></a>
+        <form id="idForm">
+            <textarea name="inputText" id="idTextArea" maxlength="300" placeholder="Ingresa aquí el mensaje"></textarea>
+            <div id="divButtons">
+                <button id="encriptarBtn">Encriptar</button>
+                <button id="desencriptarBtn">Desencriptar</button>                    
+            </div>
+        </form>
+        <div id="rulesMsg">
+            <img src="images/exclamacion.png" alt="exclamation" id="idExclamation"><span> Sólo letras minúsculas y sin acentos</span>
+        </div>
+        <div id="outputRect">
+            <div id="noText">
+                <div id="divMuñeco">
+                    <img src="images/muñeco.png" alt="muñeco" id="imgMuñeco">
+                </div>
+                <div id="noMessage">
+                    <p>Ningún mensaje fue encontrado</p>
+                </div>
+                <div id="noMessage2">
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div> 
+            </div>            
+            <div id="resultsScreen">
+                <span id="resultText"></span>
+                <form>
+                    <button id="copyBtn" class="invisible">Copiar</button>
+                </form>
+            </div>   
+        </div>
+    </div>
+    <script src="js/form.js"></script>
+</body>
+</html>
