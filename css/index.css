@@ -5,7 +5,7 @@ body{
 #divBox{
     border: solid rgb(0, 0, 0); 
     border-radius: 15px;
-    background-color: crimson;
+    background-color: #4d1da0;
     position: relative;
     width: 86%;
     height: 720px;
@@ -158,7 +158,7 @@ body{
     position: absolute;
     margin-left: 60px;
     margin-top: 636px;
-    color: #072850;
+    color: aqua;
     font-size: 20px;
     font-weight: 700;
 }#autor:hover{
