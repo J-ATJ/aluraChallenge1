@@ -1,2 +1,4 @@
 # aluraChallenge1
-Solución al Challenge 1 (Encriptación)
+
+Solution to Oracle-Alura Challenge 1:
+- Creation of a text encrypter with JavaScript.
